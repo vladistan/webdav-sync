@@ -1,59 +1,59 @@
 {
-  "name": "webdav-sync",
-  "version": "0.4.4",
-  "description": "Basic local sync to WebDAV servers",
-  "author": {
-    "name": "Bermi Ferrer",
-    "email": "bermi@bermilabs.com"
-  },
-  "homepage": "http://github.com/bermi/webdav-sync/",
-  "keywords": [
-    "webdav-sync",
-    "webdav",
-    "demandware",
-    "sync",
-    "watch",
-    "mirror"
-  ],
-  "bugs": {
-    "url": "http://github.com/bermi/webdav-sync/issues"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://opensource.org/licenses/mit-license.php"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/bermi/webdav-sync.git"
-    }
-  ],
-  "main": "index",
-  "bin": {
-    "webdav-sync": "./bin/webdav-sync"
-  },
-  "directories": {
-    "lib": "./lib"
-  },
-  "dependencies": {
-    "watch": "0.5.x",
-    "colors": "0.6.x",
-    "optimist": "0.3.x",
-    "pkginfo": "0.2.x"
-  },
-  "engines": {
-    "node": ">=0.6"
-  },
-  "readmeFilename": "README.md",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/bermi/webdav-sync.git"
-  },
-  "_id": "webdav-sync@0.4.4",
-  "dist": {
-    "shasum": "1974b0da4c82c6481098a78b6c7541dbbb9f0f4d"
-  },
-  "_from": "webdav-sync"
+    "_from": "webdav-sync",
+    "_id": "webdav-sync@0.4.4",
+    "author": {
+        "email": "bermi@bermilabs.com",
+        "name": "Bermi Ferrer"
+    },
+    "bin": {
+        "webdav-sync": "./bin/webdav-sync"
+    },
+    "bugs": {
+        "url": "http://github.com/bermi/webdav-sync/issues"
+    },
+    "dependencies": {
+        "colors": "0.6.x",
+        "optimist": "0.3.x",
+        "pkginfo": "0.2.x",
+        "watch": "0.5.x"
+    },
+    "description": "Basic local sync to WebDAV servers",
+    "directories": {
+        "lib": "./lib"
+    },
+    "dist": {
+        "shasum": "1974b0da4c82c6481098a78b6c7541dbbb9f0f4d"
+    },
+    "engines": {
+        "node": ">=0.6"
+    },
+    "homepage": "http://github.com/bermi/webdav-sync/",
+    "keywords": [
+        "demandware",
+        "mirror",
+        "sync",
+        "watch",
+        "webdav",
+        "webdav-sync"
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/mit-license.php"
+        }
+    ],
+    "main": "index",
+    "name": "webdav-sync",
+    "readmeFilename": "README.md",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git://github.com/bermi/webdav-sync.git"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/bermi/webdav-sync.git"
+    },
+    "version": "0.4.4"
 }
